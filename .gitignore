@@ -1,3 +1,7 @@
+mymaps/*
+new_data/*
+# Below from: https://github.com/github/gitignore/blob/main/Python.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -109,10 +113,7 @@ ipython_config.py
 #   https://pdm.fming.dev/#use-with-ide
 .pdm.toml
 
-mymaps/*
 
-
-# Below from: https://github.com/github/gitignore/blob/main/Python.gitignore
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 
