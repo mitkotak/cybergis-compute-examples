@@ -1,0 +1,33 @@
+{
+    "name": "three-examples",
+    "description": "Runs three simple examples",
+    "estimated_runtime": "5 minutes",
+    "container": "cybergisx-0.4",
+    "pre_processing_stage": "python example1/example1.py",
+    "execution_stage": "python example2/make_maps.py",
+    "post_processing_stage": "bash example3/say_my_name.sh",
+    "slurm_input_rules": {
+           "time": {
+                "max": 10,
+                "min": 5,
+                "default_value": 10,
+                "step": 1,
+                "unit": "Minutes"   
+            },
+            "memory": {
+                "max": 4,
+                "min": 2,
+                "default_value": 4,
+                "step": 1,
+                "unit": "GB"
+            }
+    },
+    "require_upload_data": true,
+    "param_rules": {
+        "name": {
+            "type": "string_input",
+            "require": true,
+            "default_value": "Your Name Here"
+        }
+    }
+}

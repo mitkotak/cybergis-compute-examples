@@ -5,8 +5,8 @@ import os
 import pathlib
 
 # get the geojsons
-geojson_dir = "data/"
-path2geojsons = geojson_dir + "*.geojson"
+geojson_dir = os.getenv('data_folder')
+path2geojsons = os.path.join(geojson_dir, "*.geojson")
 to_map = glob.glob(path2geojsons)
 print(f"We are going to map {len(to_map)} geojsons. They are:")
 for geojson in to_map:
@@ -14,7 +14,7 @@ for geojson in to_map:
 
 
 # create the output path:
-output_path = "mymaps/"
+output_path = os.getenv('result_folder')
 pathlib.Path(output_path).mkdir(parents=True, exist_ok=True)
 
 # load data and plot

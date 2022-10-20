@@ -1,2 +1,1 @@
-NAME="Alex"
-echo "Your name is ${NAME}"
+echo "Your name is ${param_name}"
