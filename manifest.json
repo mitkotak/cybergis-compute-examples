@@ -2,7 +2,7 @@
     "name": "three-examples",
     "description": "Runs three simple examples",
     "estimated_runtime": "5 minutes",
-    "container": "cybergisx/0.8.0",
+    "container": "cybergisx/python3-0.8.0",
     "connector": "SingCVMFSConnector",
     "pre_processing_stage": "python example1/example1.py",
     "execution_stage": "python example2/make_maps.py",
