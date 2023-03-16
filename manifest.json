@@ -29,5 +29,7 @@
             "require": true,
             "default_value": "Your Name Here"
         }
-    }
+    },
+    "supported_hpc": ["anvil_community", "expanse_community", "keeling_community"],
+    "default_hpc": "keeling_community"
 }
