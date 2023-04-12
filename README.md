@@ -31,7 +31,7 @@ Once you have an account and can use the JupyterHub, you are going to want to cl
 1. Go to a "Launcher" (to open one, click the blue plus mark in the top-left on JupyterLab).
 2. Under "Other" click "Terminal".
 3. Change directories to your work folder (`cd work`)
-4. Clone this repository (`git clone git@github.com:alexandermichels/cybergis-compute-examples.git`)
+4. Clone this repository (`git clone git@github.com:cybergis/cybergis-compute-examples.git`)
 5. Switch to the `start` branch which give you the necessary files for this tutorial.
 
 Keep this terminal open as we will use it throughout the guide!
